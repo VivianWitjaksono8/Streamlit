@@ -9,7 +9,7 @@ Run with: streamlit run codes_streamlit_project_v2.py
 import streamlit as st
 import os
 from typing import Optional, List, Dict, Any
-import tempfile
+import tempfiled
 import base64
 
 # Load environment variables
@@ -462,3 +462,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    import streamlit as st
+
+try:
+    api_key = st.secrets["OPENAI_API_KEY"]
+except KeyError:
+    st.error("API key belum diset di Streamlit Secrets!")
+    st.stop()

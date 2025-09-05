@@ -12,3 +12,10 @@ openai
 pypdf
 faiss-cpu
 python-dotenv
+streamlit
+langchain
+langchain-community
+openai
+pypdf
+faiss-cpu
+python-dotenv
