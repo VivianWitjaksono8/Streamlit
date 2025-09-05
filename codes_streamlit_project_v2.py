@@ -9,7 +9,7 @@ Run with: streamlit run codes_streamlit_project_v2.py
 import streamlit as st
 import os
 from typing import Optional, List, Dict, Any
-import tempfiled
+import tempfile
 import base64
 
 # Load environment variables
@@ -470,3 +470,4 @@ try:
 except KeyError:
     st.error("API key belum diset di Streamlit Secrets!")
     st.stop()
+
