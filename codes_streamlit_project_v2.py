@@ -463,7 +463,6 @@ def main():
 if __name__ == "__main__":
     main()
     
-<<<<<<< HEAD
 import streamlit as st
 
 # Ambil API key dari Streamlit Secrets
@@ -472,6 +471,3 @@ try:
 except KeyError:
     st.error("API key belum diset di Streamlit Secrets!")
     st.stop()
-
-=======
->>>>>>> a7a7da5 (Use Streamlit Secrets for OpenAI API key)
